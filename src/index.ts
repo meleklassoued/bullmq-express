@@ -55,14 +55,14 @@ const {
 
 async function addAllJobs() {
   await Promise.all([
-    addEmailJobs,
-    addBackupJobs,
-    addOnboardingJobs,
-    addPaymentJobs,
-    addOnboardingJobs,
-    addImageProcessingJobs,
-    addWebhookJobs,
-    addReportJobs,
+    addEmailJobs(),
+    addBackupJobs(),
+    addOnboardingJobs(),
+    addPaymentJobs(),
+    addOnboardingJobs(),
+    addImageProcessingJobs(),
+    addWebhookJobs(),
+    addReportJobs(),
   ]);
   console.log("All sample jobs added to queues!");
 }
