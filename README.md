@@ -43,7 +43,7 @@ src/
 ### 1. Install Dependencies
 
 ```sh
-npm install
+yarn install
 ```
 
 ### 2. Start Redis
@@ -59,14 +59,14 @@ docker-compose up -d
 For development (with auto-reload):
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 Or build and start:
 
 ```sh
-npm run build
-npm start
+yarn build
+yarn start
 ```
 
 ### 4. Open the Dashboard
