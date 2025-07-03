@@ -43,7 +43,7 @@ src/
 ### 1. Install Dependencies
 
 ```sh
-yarn install
+yarn
 ```
 
 ### 2. Start Redis
